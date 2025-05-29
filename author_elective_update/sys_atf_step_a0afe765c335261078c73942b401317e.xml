@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="ログ">f78ca761c335261078c73942b4013181</copied_from>
+        <description>ログ：今日の日付を指定した必要な場合のテストは失敗するはずです。テストによってレコードが挿入されました:{{Step 2: Record Insert.レコード}} </description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="ログ">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 05:57:44</sys_created_on>
+        <sys_id>a0afe765c335261078c73942b401317e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_a0afe765c335261078c73942b401317e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 05:58:44</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Today">6caf2765c335261078c73942b40131b8</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a0afe765c335261078c73942b401317e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a0afe765c335261078c73942b401317e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 05:57:44</sys_created_on>
+        <sys_id>a0afe765c335261078c73942b401317f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 05:58:44</sys_updated_on>
+        <value>今日の日付を指定した必要な場合のテストは失敗するはずです。テストによってレコードが挿入されました:{{step['24afe765c335261078c73942b4013164'].record_id}} </value>
+        <variable display_value="Log">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=a0afe765c335261078c73942b401317e"/>
+    <sys_element_mapping action="DELETE">
+        <field>log</field>
+        <id>a0afe765c335261078c73942b401317e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 05:57:44</sys_created_on>
+        <sys_id>a4afe765c335261078c73942b401317f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 05:58:44</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>今日の日付を指定した必要な場合のテストは失敗するはずです。テストによってレコードが挿入されました:{{step['24afe765c335261078c73942b4013164'].record_id}} </value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>98886ac5eb346ed456eafddacad0cdef</instance_id>
+        <instance_name>dev320568</instance_name>
+        <name>sys_atf_step_a0afe765c335261078c73942b401317e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="ログ">f78ca761c335261078c73942b4013181</copied_from><description>ログ：今日の日付を指定した必要な場合のテストは失敗するはずです。テストによってレコードが挿入されました:{{Step 2: Record Insert.レコード}} </description><display_name>Log</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>4</order><step_config display_value="ログ">58ab71985f30220012b44adb7f46661e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-29 05:57:44</sys_created_on><sys_id>a0afe765c335261078c73942b401317e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Log</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_a0afe765c335261078c73942b401317e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-29 05:58:44</sys_updated_on><table/><test display_value="When needed - Today">6caf2765c335261078c73942b40131b8</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a0afe765c335261078c73942b401317e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a0afe765c335261078c73942b401317e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-29 05:57:44</sys_created_on><sys_id>a0afe765c335261078c73942b401317f</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-29 05:58:44</sys_updated_on><value>今日の日付を指定した必要な場合のテストは失敗するはずです。テストによってレコードが挿入されました:{{step['24afe765c335261078c73942b4013164'].record_id}} </value><variable display_value="Log">523c79985f30220012b44adb7f46663a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=a0afe765c335261078c73942b401317e"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log</field><id>a0afe765c335261078c73942b401317e</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-29 05:57:44</sys_created_on><sys_id>a4afe765c335261078c73942b401317f</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-29 05:58:44</sys_updated_on><table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table><value>今日の日付を指定した必要な場合のテストは失敗するはずです。テストによってレコードが挿入されました:{{step['24afe765c335261078c73942b4013164'].record_id}} </value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1313280534</payload_hash>
+        <record_name>Log</record_name>
+        <reverted_from/>
+        <source>35a429c9c371621078c73942b40131e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 05:58:44</sys_created_on>
+        <sys_id>dbdf6f65c335261078c73942b401313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1971a9f1c8b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 05:58:44</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>53df6f65eb35261030d35812b33abf3c</update_guid>
+        <update_guid_history>53df6f65eb35261030d35812b33abf3c:-1313280534,6cafe765af352610d370c6976cbe0786:672729570,64afe765d63526100af414b1e3181881:54355760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 06:04:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0823cf4065b84856ab1dc766e76bf091</sys_id>
+        <sys_metadata>a0afe765c335261078c73942b401317e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a0afe765c335261078c73942b401317e</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a0afe765c335261078c73942b401317e">dbdf6f65c335261078c73942b401313c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 06:04:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
