@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>期限切れの NeedIt タスクを見つけて、そのタスクを割り当てられた人に通知する毎日のプロセス。</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>_needit_</internal_name>
+        <label_cache>[{"name":"c7bc6d8e-09d3-4721-b3db-bf733d6bf85d.Records","label":"1 - 複数のレコードの検索➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records","type":"records","base_type":"records","usedInstances":{"b7934435-8366-4044-bb58-a61bc26aef01":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7934435-8366-4044-bb58-a61bc26aef01.item","label":"2 - For Each➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference","usedInstances":{"384a22a4-3bd2-4f77-9116-0fe79081e121":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>期限切れの NeedIt タスクを見つける</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:37:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a89db775c379661078c73942b4013183</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>期限切れの NeedIt タスクを見つける</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_a89db775c379661078c73942b4013183</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:41:10</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a89db775c379661078c73942b4013183"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a89db775c379661078c73942b4013183</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:37:06</sys_created_on>
+        <sys_id>6c9d3f75c379661078c73942b4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:37:06</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=a89db775c379661078c73942b4013183"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a89db775c379661078c73942b4013183"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a89db775c379661078c73942b4013183^sys_idNOT INb49d3f75c379661078c73942b401316e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a89db775c379661078c73942b4013183</id>
+        <name>期限切れの NeedIt タスクを見つける</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:37:07</sys_created_on>
+        <sys_id>b49d3f75c379661078c73942b401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:37:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b49d3f75c379661078c73942b401316e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a89db775c379661078c73942b4013183"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a89db775c379661078c73942b4013183"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a89db775c379661078c73942b4013183"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a89db775c379661078c73942b4013183^sys_idNOT IN088effb5c379661078c73942b40131b2"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="期限切れの NeedIt タスクを見つける">a89db775c379661078c73942b4013183</flow>
+        <generation_source/>
+        <name>日次</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:41:09</sys_created_on>
+        <sys_id>088effb5c379661078c73942b40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:41:09</sys_updated_on>
+        <trigger_definition display_value="日次">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy07cQBD8lWjOG2u8CyTxDQmtlENAghUXhKz2THt3pHllPF4wiEtO+YV8C98D30GPPbsiLJYvXd1dXVX2zSPT0KBmFXv99+fl7zObMWUjBgt6NXgkfK2VxDoqg9QzYCVEFwZWxdDjjLXBmRUaryHScAu6I9AFiYFVJecztgXd49XQ/ZTERQwWTGLNfGOXyvLHN/6Vl/R+4bwqjyvOqSs2SsuAllU3tzPmIdBuTMyPH1qRpNY7I6uJWqWDC5BHKAUXizk9nM+/H5XNyaIp53IBiMc0d+D/f4XxkxTe+8P7iFai3Js/iCggyAurh/3EhhKewjBw36kHzFQBWyRLAqfmvqyl6ijgYYLFximBFz4qZyckQqPzjnC6N/Z8ckC1xBZ6Ha9zzIT0HfGhT5qTiiypvdq4u8vdwaWyo8Hc1E6A3lcQY1BNH7FL3wE1GiKqDXiv7Lr2wW3VuExaTDHGVrTa3dHRTq1tASIJLygiKJaEn43wNQSVXPwiGlp+Gt3Xv/t0d/KRFdeTaRrIoSwV6vxrdSIoH0/pwHb3Lz7dvgFyVA9H4gIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a89db775c379661078c73942b4013183^sys_idNOT IN808effb5c379661078c73942b40131b8,848effb5c379661078c73942b40131b4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="通知を送信します">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="通知を送信します">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="期限切れの NeedIt タスクを見つける">a89db775c379661078c73942b4013183</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b7934435-8366-4044-bb58-a61bc26aef01</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:41:10</sys_created_on>
+        <sys_id>808effb5c379661078c73942b40131b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:41:10</sys_updated_on>
+        <ui_id>384a22a4-3bd2-4f77-9116-0fe79081e121</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/8WWS0vdQBTHv4pkfXOZPG6S664ggmAVWutGJMzjjA6dPEwmV60IpUKhX6CLbrrqqt11229zF6Xfomdyc1/qVRFtV2HO5Lz+Z36ZHFw4SjjrTigSIYbSI9LzPOKRged7CSTAeBzF4CdOz8lpBvhmBbyoBK5HVDfWcHHB4mEQhsHATYIockMShi5jg8Slkce4H1GQxOsrA9nlJfoJVZeanu937mjhx0qLCnJn/eCw55S0wkwGKmf94tqWOS8h1ZSBRseNgjcZ5GZtawNjPLSLqff46sf4w8/x1a/x1adbmrOZcC26HKmyRtyyVXk9B84M5AIwp6S6hp6T0VxQU1TnM0sFVOzmem44VrmZ9JvRs1q9w/iBb9+TgA3yTovZMu10mkpUKA67pVFFPrEYyvRUv0I3Wb4zacEqDJI22iwo3NQYD0pbsy3CVA0WJF8fF6evpvk2Vd5211WrC071bEWNqRRrDNR2KI3aQ3m2b50DaGgFy2hZqvwoLatipNrAWGbWP9K46EtdnGI9tTrK+5TbnvqoHu1von2jNe/TStkGX2IYdO51OW+MpFFvcnXSwJYdv/BIHAwJd2N/EOA55NRliWAuZb4chGGURMxzLluN05PGtjdRq9MlbaVtdU3b84Cv1rxSpXmBNY6gU+Oy1zGTeHedtsCfH6uFmHNuztJBksR+mgMIZaYPQ+u3NyHZwc0ts7Y32XwcL3u2iLWdSREPbWCOy8eWlc/jq+8r+uqQWbJ1xPhPRkxC/g8xXUVPhMzSKJ6dmKWJLAHDGWOSwdDF7zR3wxgSN/Fp7MKA8ED6ASGxvBeY+zAJ7z5lC1dLXhglFaftyOagcEICHsuISO7HPiFEkIAIxgFjEQjYTVx2R1CJBhV+Amxm055dMvf3M/X98/7L76/fVjbYEVMtZOiACe4GZvL9fswNU5/XMLKjg4wqnU6O0gqIZtWvRmlVuCW+qJTADYhUKtACD03a+vyDi2pJbwQBo83A2L5lvs+O4uKoazBpJ0BqA6SyqDJqB9j2cp3VcOhBHPiJO4x8ZBXwd4uJIHA9ZBcA/7F88RSX2+FfmISzpxIKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="複数のレコードの検索">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="複数のレコードの検索">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="期限切れの NeedIt タスクを見つける">a89db775c379661078c73942b4013183</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:41:10</sys_created_on>
+        <sys_id>848effb5c379661078c73942b40131b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:41:10</sys_updated_on>
+        <ui_id>c7bc6d8e-09d3-4721-b3db-bf733d6bf85d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VXy27TQBT9lcgrkKzIzqshO9SqUhe0ElTdlGKN7XEydDI29jjpQ5VoIlUgNmyATUEgVWKBhNjABhAfYwjiL7jjsZ00SdM0jUpZRXPv3Pc515PNfYXYSk2pOiVNQ3q5uqBpxaKmVSpFC+mmWaxYpmaWTEVVGGpiuMmRSTEcW4iG4rxjlKvVhYLBMLYJT384Crbhkk0Cj6LdjeTuKihXeG5dKq0GobaPmVLb3FIVD/kQgGNfqe0Pqfiuhw2KTEzBx7qIn1sVyahT554aR92jqPst6r6Muh9GSxJx0qPBZATXt0VKmqrgHY6ZjSGig2iAVaWJmI246+9mEh8je43RvqBBGAePiri8E5A9cF/VxD0HQ3UWlrrsaCT9kmKr4RILr3mcuExKZKJS6dKwyVZlAaLT2EEh5WmnQRIG4A97ImeRRJKRc6/htu+mAZcJi8tLlNS1EM1OiHOfmCHHgRgJprgJjowm8jzC6obnuy0SG0MuzXydwiHvULcNQQNSZ3lkicTz0CKUXwb5UizeQD4RVdwBN2AMCREKQzdk0wM39OOutAyLhkGs8BELpC/lIO6V8SgUWcqqk/oM2SK4EFg+8fhtMGjhpJQDdSqUl7U+JCyXAYwhZjAAdRQ7vR+Csc39ED+wQ2gx4lJkScVD1EIyh1o9yEN2a866a6PdGzdH+XB5h7NxaHGwumk7kxr3Xr/7+fXLGa1KKHRKllBInxuFINV/RCIxpGvHofNYIQs+hxrWwkQAlPvzDlyfG7JzA9wYBffM6FwmmNqnNvwUyWUbvvM93vBP/rw9OivnBKSOiDO05wv//Z6/JEQd25B9IYwSFn8OwSGEucbY1SYvr1tDOIjH30duLIMNO2Y956LDZ1HnaW5v9k0bzzbF8RSJjuA46vyIOidR99X4KtKFm8ZJcFycG46LhYvhGFC0uZ+VcaqFYzqePq/ELFObvdQGDdsAsgaM9IOtjA+Ls8fWZ4ldELGHiFu8EHMHYSc1SxPQN+fH3BWzXBUBG2CaxDMkm402seuY96Ont2yXtxHdHqdPEJcRLC7v0g/D0kRiVvQ+94AXho8DGNfgy1CHF8no/tBVKZ5tdawwjutx86ZNMbX8/fl5781xdPixd/z418n73otPZ+WfbA+ShUrgXZrjW+0qPoNp/8cSKR3Df/GHaFYkb/0FxNuMLcoPAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a89db775c379661078c73942b4013183"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a89db775c379661078c73942b4013183^sys_idNOT INc48effb5c379661078c73942b40131b6"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">888effb5c379661078c73942b40131b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="期限切れの NeedIt タスクを見つける">a89db775c379661078c73942b4013183</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 01:41:10</sys_created_on>
+        <sys_id>c48effb5c379661078c73942b40131b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 01:41:10</sys_updated_on>
+        <ui_id>b7934435-8366-4044-bb58-a61bc26aef01</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51Ty27bMBD8F55tQY9EftwCFAF6SAKkQS5FIPCxsolSJEtSdlRBlwTodxRF/8w/kqUlO0V7KXoSd3Z3doZL9cS0wbbBP5gr7+VGk/XnpxmROmJ47okUZE2ylahXWbriRV4WeZrmy4uMlQXLclFQECWZEU0bwEoZoPEY7qhqY9z3fMF4KZYwT1eimF8s8mzOCsHmrF4UhShZvbwUyT1w44QfBmwV0ltFu8f/Z+BbqYSDyYylDrUFcGTd/5EKnYVKUQYKB00M2P+vnk+dh5efh5dfh9fvh9cff19FHIKhO9PjJ4rJ0xmB5wBaAM6rqfIwIw3VggbjOrIOrkXAARV3WnXniq3UAelIrH328htyZ2kaC2tAYxzG5DmspvscYb41ksOdDdLoEQmUqamHG9U2+naUHzcBNW1VOG0CkdYjH9ioOaqYJNWftmZ/fxp4LfXR35RUhlN1jmgITrI2gI/bAAUNElUNtVbqTWWd2cljM2ppko3CIKmV2ePQ+DoTyqPwBK+IJteIfzjCj9TJ6OIGabB5OLqvvrZx7uhjUlyNprHAcydtuEK6HUzihqf4bEcmP74PAVx6HPgQsY+nnyImOlyy5L9De+O+RKnv2PAGoU+ZfV4DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a89db775c379661078c73942b4013183"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a89db775c379661078c73942b4013183"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a89db775c379661078c73942b4013183"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a89db775c379661078c73942b4013183"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a89db775c379661078c73942b4013183"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a89db775c379661078c73942b4013183"/>
+</record_update>
